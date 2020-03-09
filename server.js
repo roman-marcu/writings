@@ -1,19 +1,20 @@
 'use strict';
 
 const express = require('express');
-const url = require('url');
-
+const path = require('path');
+const asciidoctor = require('asciidoctor')();
 // Constants
 const PORT = process.env.PORT || 8080;
 const HOST = '0.0.0.0';
 
 // App
 const app = express();
-app.get('/', (req, res) => {
-  var q = url.parse(req.url, true);
-  var filename = "." + q.pathname;
 
-  res.sendFile(filename);
+const router = express.Router();
+
+
+app.get('/', (req, res) => {
+  //res.sendFile(path.join(__dirname+'/index.html'));
 });
 
 app.listen(PORT, HOST);
