@@ -51,6 +51,7 @@
                                 <idseparator>-</idseparator>
                                 <docinfo1>true</docinfo1>
                             </attributes>
+                            <outputDirectory>${project.basedir}/output</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
