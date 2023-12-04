@@ -1,0 +1,71 @@
+= Kubernetes learning path
+Owner <roman.marcu@gmail.com>
+2023-01-01
+:revnumber: {project-version}
+:kubernetes-caption!:
+ifndef::imagesdir[:imagesdir: /kubernetes_resources/images]
+ifndef::subdir[:subdir: ../kubernetes]
+
+This is a kubernetes course.
+
+== Introduction
+--
+include::{subdir}/introduction.adoc[]
+--
+=== Install and configure a local environment
+--
+include::{subdir}/install_and_config_local_env.adoc[]
+--
+=== Complementary tools
+=== Best practices
+=== Notes on production environment
+== Containers
+=== Images
+=== Runtime
+== Cluster Architecture
+=== Nodes
+=== Controllers
+=== Communications channels
+== Kubernetes concepts
+=== Objects
+=== Components
+=== Yaml, tools to manage better the syntax
+== Workload
+=== Pods
+=== Sidecar
+=== Resources
+== Networking
+=== Service
+=== Ingress
+=== Ingress Controller
+=== Gateway API
+=== DNS for service and pods
+=== Other services
+== Storage
+=== Volume concept
+=== Type of Volumes
+=== Storage classes
+=== Provisioning and Snapshots
+=== Monitoring
+=== Limitation
+== Configuration
+=== ConfigMaps
+=== Secrets
+=== Best practices
+== Security
+=== Cloud native security
+=== Pod Security
+=== Service accounts
+=== RBAC (Role base access control)
+=== Multi-tenancy
+=== Security checklist
+== Advanced concept
+=== Policies (limit range, node resource manager)
+=== Scheduling
+=== Preemtion
+=== Eviction
+== Cluster Administration
+=== Securing a cluster
+=== Logging
+=== Metrics
+=== Traces

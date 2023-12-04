@@ -1,0 +1,26 @@
+Hello dear reader, if you are here then you might have the same questions about kubernetes that I got in the beginning: What it is? How it is working? How to use it? What are the pro and cons using it? and the most interesting question: Do I need it?
+
+I have already a lot of stuff on my plate: requirements, code, production bugs, deadlines, servers crushing, backups, deployments, rollback, insufficient resources on servers .... grrrrr.
+
+I know, I know it is not easy to handle with all the pressure and workload, but what if I could tell you that kubernetes can help you, stick with me for the next chapters to see exact how.
+
+But first I would like to start with a definition:
+
+ Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications.
+
+and let's elaborate a little bit more with some key concept.
+
+*Container*, lightweight and portable units that package an application and its dependencies together.
+
+*Orchestration*, refers to the coordination and management of multiple components or processes to achieve a specific outcome or goal.
+
+*Automating*, refers to the process of making a system, task, or process operate automatically, without direct human intervention.
+
+*Deployment*, refers to the process of making a software application, system, or release available and operational in a specific environment. It involves the installation, configuration, and activation of software components to ensure that they function as intended in a target environment
+
+*Scaling*, refers to the process of adjusting the capacity or size of a system to handle a changing workload. The goal of scaling is to ensure that a system can efficiently and effectively manage increased demands, whether in terms of user traffic, data processing, or other resource-intensive activities.
+
+If you think that using a tool to automate deployments, scaling, and we did not cover the management container part yet, can help you with your struggles keep reading to see and understand how simple it is to use and test kubernetes.
+
+
+
