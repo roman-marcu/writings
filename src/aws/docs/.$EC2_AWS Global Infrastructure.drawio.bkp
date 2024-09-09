@@ -1,0 +1,110 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
+    <mxGraphModel dx="972" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="123" value="" style="fillColor=#99CCFF;strokeColor=default;opacity=30;rounded=1;strokeWidth=4;perimeterSpacing=3;backgroundOutline=1;gradientColor=#A9C4EB;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="747" y="175.50000000000003" width="210" height="99.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="122" value="" style="fillColor=#10739E;strokeColor=#CCCCCC;opacity=30;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;rounded=1;glass=1;shadow=1;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="97" y="325.5" width="1470" height="99.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;flowAnimation=1;" parent="1" source="2" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;flowAnimation=1;" parent="1" source="2" target="9og8Tt8GYBWu8dkJrYvM-124" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=1;flowAnimation=1;" parent="1" target="9og8Tt8GYBWu8dkJrYvM-125" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="852" y="281.5" as="sourcePoint" />
+            <mxPoint x="1215" y="343" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="852" y="303" />
+              <mxPoint x="1215" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="Amazon Elastic Compute &#xa;Cloud EC2 Types" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="757" y="185.5" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Accelerated computing&#xa;( hardware accelerators, &#xa;or coprocessors,)" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="1360" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Memory optimized" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="600" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Compute optimized" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="350" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="General Purpose" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="110" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=0;endArrow=block;endFill=1;flowAnimation=1;" parent="1" source="2" target="12" edge="1">
+          <mxGeometry x="347" y="225.5" width="100" height="100" as="geometry">
+            <mxPoint x="861.9999999999999" y="275.5" as="sourcePoint" />
+            <mxPoint x="1466.9999999999998" y="345.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-124" value="Storage optimized" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="850" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-125" value="High-performance &#xa;computing" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+          <mxGeometry x="1120" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=0;endArrow=block;endFill=1;flowAnimation=1;" parent="1" source="2" target="13" edge="1">
+          <mxGeometry x="-23" y="135.5" width="100" height="100" as="geometry">
+            <mxPoint x="-23" y="235.5" as="sourcePoint" />
+            <mxPoint x="77" y="135.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-126" value="" style="fillColor=#ffe6cc;strokeColor=#d79b00;opacity=30;" parent="1" vertex="1">
+          <mxGeometry x="97" y="450" width="1470" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-133" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;These instances are ideal for applications that use these resources in equal proportions, such as web servers and code repositories.&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;perimeterSpacing=0;perimeter=centerPerimeter;align=left;spacingRight=5;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="120" y="460" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-134" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;These instances are ideal for compute intensive applications like batch processing workloads, high performance web servers, dedicated gaming servers, ad server engines because they all benefit from high performance processors&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;perimeterSpacing=0;perimeter=centerPerimeter;align=left;spacingRight=5;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="360" y="460" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-135" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;These instances are designed&amp;nbsp;to deliver fast performance for workloads that process large data sets in memory. It can be used for&amp;nbsp;high-performance database or a workload that involves performing real-time processing of a large amount of unstructured data.&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;perimeterSpacing=0;perimeter=centerPerimeter;align=left;spacingRight=5;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="610" y="460" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-136" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;These instances&amp;nbsp;are designed for workloads that require high, sequential read and write access to very large data sets on local storage. We can use it for&amp;nbsp;distributed file systems, data warehousing applications, and high-frequency online transaction processing (OLTP) systems.&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;perimeterSpacing=0;perimeter=centerPerimeter;align=left;spacingRight=5;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="860" y="458" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-137" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;These instances use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs. We can use these&amp;nbsp;for workloads such as graphics applications, game streaming, and application streaming.&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;perimeterSpacing=0;perimeter=centerPerimeter;align=left;spacingRight=5;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="460" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-138" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;These instances&amp;nbsp;are purpose built to offer the best price performance for running HPC workloads at scale on AWS. These instances are ideal for applications that benefit from high-performance processors, such as large, complex simulations and deep learning workloads.&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;perimeterSpacing=0;perimeter=centerPerimeter;align=left;spacingRight=5;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="460" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-144" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;glass=1;shadow=1;backgroundOutline=0;autosize=0;treeFolding=0;treeMoving=0;shadowColor=#FFFF66;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;strokeColor=#FF9999;flipH=1;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="106" y="320" width="200" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-145" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;glass=1;shadow=1;backgroundOutline=0;autosize=0;treeFolding=0;treeMoving=0;shadowColor=#FFFF66;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;strokeColor=#97D077;flipH=1;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="320" width="200" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-146" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;glass=1;shadow=1;backgroundOutline=0;autosize=0;treeFolding=0;treeMoving=0;shadowColor=#FFFF66;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;strokeColor=#FF0080;flipH=1;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="595" y="320" width="200" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-147" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;glass=1;shadow=1;backgroundOutline=0;autosize=0;treeFolding=0;treeMoving=0;shadowColor=#FFFF66;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;strokeColor=#B5739D;flipH=1;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="847" y="320" width="200" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-148" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;glass=1;shadow=1;backgroundOutline=0;autosize=0;treeFolding=0;treeMoving=0;shadowColor=#FFFF66;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;strokeColor=#7EA6E0;flipH=1;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="1115" y="320" width="200" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9og8Tt8GYBWu8dkJrYvM-149" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;glass=1;shadow=1;backgroundOutline=0;autosize=0;treeFolding=0;treeMoving=0;shadowColor=#FFFF66;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;strokeColor=#67AB9F;flipH=1;flipV=1;" parent="1" vertex="1">
+          <mxGeometry x="1356" y="320" width="200" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=0;endArrow=block;endFill=1;flowAnimation=1;" parent="1" edge="1">
+          <mxGeometry x="337" y="215.5" width="100" height="100" as="geometry">
+            <mxPoint x="850" y="265.5" as="sourcePoint" />
+            <mxPoint x="1453" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
