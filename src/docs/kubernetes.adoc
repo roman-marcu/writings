@@ -17,8 +17,17 @@ include::{subdir}/introduction.adoc[]
 include::{subdir}/install_and_config_local_env.adoc[]
 --
 === Complementary tools
+--
+include::{subdir}/complementary_tools.adoc[]
+--
 === Best practices
+--
+include::{subdir}/best_practices.adoc[]
+--
 === Notes on production environment
+--
+include::{subdir}/production_enviroment.adoc[]
+--
 == Containers
 === Images
 === Runtime

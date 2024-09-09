@@ -1,4 +1,5 @@
-Hello dear reader, if you are here then you might have the same questions about kubernetes that I got in the beginning: What it is? How it is working? How to use it? What are the pro and cons using it? and the most interesting question: Do I need it?
+Hello dear reader, if you are here then you might have the same questions about kubernetes that I got in the beginning:
+What it is? How it is working? How to use it? What are the pro and cons using it? and the most interesting question: Do I need it?
 
 I have already a lot of stuff on my plate: requirements, code, production bugs, deadlines, servers crushing, backups, deployments, rollback, insufficient resources on servers .... grrrrr.
 
@@ -20,7 +21,24 @@ and let's elaborate a little bit more with some key concept.
 
 *Scaling*, refers to the process of adjusting the capacity or size of a system to handle a changing workload. The goal of scaling is to ensure that a system can efficiently and effectively manage increased demands, whether in terms of user traffic, data processing, or other resource-intensive activities.
 
-If you think that using a tool to automate deployments, scaling, and we did not cover the management container part yet, can help you with your struggles keep reading to see and understand how simple it is to use and test kubernetes.
+Containers are great as they are unit that can be easily shipped and deployed. But it's always the part of how to manage, maintain and monitoring all the process that are part of the containers. What if my container have failed or has a performance issue or an application failure that made the container to go down, how we can detect and react to this part? What if I can tell you that with Kubernetes you might come to almost 0(zero) downtime.
+
+So what exactly can Kubernetes do:
+
+* *Service discovery and load balancing*, using this ability we can configure and expose dns name or IP address as one entry point to our container(application) and in case of high traffic kubernetes is able to load balance and distribute the network traffic across containers
+* *Self-healing*, Kubernetes has a specific way to check status of current running container using 2 primary mechanism: liveness probes and readiness probes. Based on the result he can restart, replace or kill containers.
+* *Secret and configuration management*, you can store and update sensitive information(password, tokens, ssh keys) and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.
+* *Storage orchestration*, you can add storage system of your choice, such as local storages, public cloud providers, and more.
+* *Batch execution*, you can define 1 time or scheduled execution of a specific container application.
+* *Horizontal scaling*, it is simple 1 click or 1 command to run to have to scale down and/or up, or it is possible to have it automated based on a specific resource values (cpu, memory)
+* *Automated rollouts and rollbacks*, you can easily replace an existing container with a new or old version of the container.
+* *Automatic bin packing*, involves strategically placing containers, or "bins," within nodes to maximize resource utilization while minimizing wasted resources. It's also important to achieve the right balance between efficiency and performance when optimizing Kubernetes resources.
+* *Designed for extensibility*,Kubernetes is highly configurable and extensible. As a result, there is rarely a need to fork or submit patches to the Kubernetes project code.
+
+
+If you think that using a tool to automate deployments, scaling, management container and resources, can help you with your struggles, keep reading to see and understand how simple and easy it is to use and apply necessary changes to production environment at a cost of almost zero, yes zero, downtime.
+
+
 
 
 

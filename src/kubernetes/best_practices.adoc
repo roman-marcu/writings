@@ -1,0 +1,49 @@
+**Running in multiple zones**
+
+Kubernetes is designed so that a single Kubernetes cluster can run across multiple failure zones, typically where these zones fit within a logical grouping called a region.
+
+If availability is an important concern, select at least three failure zones and replicate each individual control plane component (API server, scheduler, etcd, cluster controller manager) across at least three failure zones.
+
+You will also need to manage creation and assignment of nodes. In addition to this you should pay attention to Storage as persistence volumes when are created have automatically assigned the zone label. The method of adding zone labels can depend on your cloud provider and the storage provisioner you’re using, please check necessary documentation.
+
+By itself, Kubernetes does not include zone-aware networking. You can use a network plugin to configure cluster networking, and that network solution might have zone-specific elements.
+
+**Enforcing Pod Security Standards**
+
+Configure all cluster namespaces
+
+Namespaces that lack any configuration at all should be considered significant gaps in your cluster security model. We recommend taking the time to analyze the types of workloads occurring in each namespace, and by referencing the Pod Security Standards, decide on an appropriate level for each of them. Unlabeled namespaces should only indicate that they've yet to be evaluated.
+
+Embrace the principle of least privilege
+
+In an ideal world, every pod in every namespace would meet the requirements of the restricted policy. However, this is not possible nor practical, as some workloads will require elevated privileges for legitimate reasons.
+
+* Namespaces allowing privileged workloads should establish and enforce appropriate access controls.
+* For workloads running in those permissive namespaces, maintain documentation about their unique security requirements. If at all possible, consider how those requirements could be further constrained.
+
+Adopt a multi-mode strategy
+
+The audit and warn modes of the Pod Security Standards admission controller make it easy to collect important security insights about your pods without breaking existing workloads.
+
+It is good practice to enable these modes for all namespaces, setting them to the desired level and version you would eventually like to enforce. The warnings and audit annotations generated in this phase can guide you toward that state.
+
+Third-party alternatives
+
+Other alternatives for enforcing security profiles are being developed in the Kubernetes ecosystem.
+The decision to go with a built-in solution (e.g. PodSecurity admission controller) versus a third-party tool is entirely dependent on your own situation.
+
+**PKI certificates and requirements**
+
+Kubernetes requires PKI certificates for authentication over TLS. Kubernetes requires PKI for the following operations:
+
+* Client certificates for the kubelet to authenticate to the API server
+* Kubelet server certificates for the API server to talk to the kubelets
+* Server certificate for the API server endpoint
+* Client certificates for administrators of the cluster to authenticate to the API server
+* Client certificates for the API server to talk to the kubelets
+* Client certificate for the API server to talk to etcd
+* Client certificate/kubeconfig for the controller manager to talk to the API server
+* Client certificate/kubeconfig for the scheduler to talk to the API server.
+* Client and server certificates for the front-proxy
+
+Certificates are stored in general under /etc/kubernetes. You can generate them by installing kubernetes using kubeadm or you can create them using a single root CA or you can provide all certificates.
